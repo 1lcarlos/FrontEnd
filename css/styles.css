@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: auto;
+    background-color: aqua;
+}
+.contenedor-logo{
+   
+    display: flex;
+    background-color: bisque;
+}
+.contenedor-logo img{
+    padding: 10px;
+    width: 8%;
+}
+.busqueda{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
