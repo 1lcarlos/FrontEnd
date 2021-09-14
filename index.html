@@ -4,7 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEADER</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+    
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
+
+    
 </head>
 <body>
     
@@ -17,6 +22,15 @@
         <span>Buscar</span>
         <input type="text">
     </div>
+   <div class="contenedor-mapa"> 
+        <div id='map' class="map">
+            <div id="mapa"></div>
+        </div>
+   </div>
 
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script> 
+<script type="text/javascript" src="js/mapboxgl-control-minimap.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
+<script src="js/main.js"></script>   
 </body>
 </html>
